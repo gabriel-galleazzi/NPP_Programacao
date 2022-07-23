@@ -8,6 +8,9 @@ int main (void)
     printf("Eu sou o programador 1\n");
 
     printf("Teste 1\n");
+    printf("Ola eu sou o programador 2\n");
+
+    printf("Teste 2");
 
     return 0;
 }
