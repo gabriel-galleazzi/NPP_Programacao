@@ -7,5 +7,7 @@ int main (void)
 
     printf("Eu sou o programador 1\n");
 
+    printf("Teste 1\n");
+
     return 0;
 }
