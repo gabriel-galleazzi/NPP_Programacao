@@ -12,5 +12,7 @@ int main (void)
 
     printf("Teste 2");
 
+    printf ("exclusão de uns arquivos");
+
     return 0;
 }
