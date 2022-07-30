@@ -1,0 +1,100 @@
+ir para cozinha 
+
+#include<stdio.h>
+
+preparar um lugar para colocar os ingredientes
+
+int main()
+
+colocar ingredientes
+
+{
+   printf ("");  //printf para imprimir na tela
+               //"" para ler o que é para imprimir
+               // ; para encerrar o programa
+} 
+
+ir para o forno
+
+printf ("Fazendo o bolo");
+
+tirar do forno
+
+ return 0;
+
+comer o bolo
+
+resultado do programa
+
+
+
+bolo simples 
+
+2 xicaras (cha) de açucar
+3 xicaras (cha) de farinha de trigo
+4 colheres (sopa) de margarina
+3 ovos
+1 e 1/2 xicara(cha) de leite
+1 colher de (sopa) brm cheia de fermento 
+
+
+MODO DE PREPARO
+1 bata clara em neve e reserve
+2 mistures as gemas, a margarina e o açucar ate obter uma massa homogenea 
+3 acrescente o leite e farinha de trigo aos poucos, sem parar de bater
+4 por ultimo, adicione as claras em neve e o fermento
+5 Despeje a massa em uma forma grande de furo central untada e enferinhada
+6 Asse em forno médio 180°C, preaquicido, por apeoximadamente 40 minutos 
+ou ao furar o bolo com um garfo, e esse saia limpo.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

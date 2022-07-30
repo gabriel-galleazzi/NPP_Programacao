@@ -5,7 +5,7 @@ vol_ef = 1        #efeciencia volumetrica
 air_press = 1     #pressão do ar
 vol = 1           # volume
 mol_mass = 1      #
-gases = 1             #constante geral dos gases
+gases = 1         #constante geral dos gases
 air_t = 1         #
 n_cyl = 1         #numero de cilindros
 
