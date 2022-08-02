@@ -56,7 +56,7 @@ int main()
    printf ("Despeje a massa na forma untada\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("");
+   printf ("acenda o forno em 180 C\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
    printf ("");
