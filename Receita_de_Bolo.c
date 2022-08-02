@@ -41,7 +41,7 @@ int main()
    printf ("Misture as gemas, a margarina e o acucar ate ter uma massa\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("");
+   printf ("Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater\n");
    
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
    printf ("");
