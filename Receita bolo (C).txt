@@ -48,7 +48,16 @@ MODO DE PREPARO
 ou ao furar o bolo com um garfo, e esse saia limpo.
 
 
+#include<stdio.h>
+int main()
+{
+   unsigned char numero_de_passos; 
+   unsigned char numero_de_passos_ideal;
+   numero_de_passos = 1;
+   numero_de_passos_ideal = 15;
 
+   printf ("Inicio da receita");
+}
 
 
 
