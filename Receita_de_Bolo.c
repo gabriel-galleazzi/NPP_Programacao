@@ -67,13 +67,33 @@ int main()
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
    printf ("Retire o bolo do forno\n\n");
 
-   if (numero_de_passos==numero_de_passos_ideal)
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("Coloque na mesa com o cafe \n\n");
+   //Passo Final 
+ /*  if (numero_de_passos==numero_de_passos_ideal)
    {
       printf ("Seu bolo ficou perfeito!!!\nBom Apetite hehe `-´ ");
    }
    else 
    {
       printf ("Voce nao sabe fazer bolo compre um ^^\n");
+   }
+*/
+
+   //Desafio
+   if (numero_de_passos==numero_de_passos_ideal)
+   {
+      printf ("seu bolo esta ideal ^^\n\n");
+   }
+   else 
+   { if (numero_de_passos>numero_de_passos_ideal)
+   {
+      printf ("Seu bolo esta muito complexo =-|\n\n");
+   }
+   else 
+   {
+      printf ("Voce nao sabe fazer bolo compre um +_-\n\n");
+   }
    }
    return 0;
 }
