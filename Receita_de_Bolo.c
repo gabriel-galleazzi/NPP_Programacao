@@ -59,9 +59,14 @@ int main()
    printf ("acenda o forno em 180 C\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("");
+   printf ("Coloque o bolo no forno\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("");
+   printf ("Espere 45 minutos\n");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("Retire o bolo do forno\n\n");
+
+
    return 0;
 }
