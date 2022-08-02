@@ -47,10 +47,10 @@ int main()
    printf ("Por ultimo, add as clara e neve e o fermento\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("");
+   printf ("unte uma forma grande com a margarina \n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("");
+   printf ("e jogue farinha em cima da forma untada\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
    printf ("");
