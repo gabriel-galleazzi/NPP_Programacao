@@ -67,6 +67,13 @@ int main()
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
    printf ("Retire o bolo do forno\n\n");
 
-
+   if (numero_de_passos==numero_de_passos_ideal)
+   {
+      printf ("Seu bolo ficou perfeito!!!\nBom Apetite hehe `-´ ");
+   }
+   else 
+   {
+      printf ("Voce nao sabe fazer bolo compre um ^^\n");
+   }
    return 0;
 }
