@@ -8,27 +8,45 @@ int main()
 
    printf ("\n\nInicio da receita:\n");
    printf ("\n- Passo %d da receita\n", numero_de_passos);
-   printf ("Preparar os ingredientes do bolo:\n");
+   printf ("Preparar os ingredientes do bolo(comprar):\n");
    printf ("acucar\nfarinha de trigo\nmargarina\novos\nleite\nfermento\n\n ");
 
-   printf ("Agora que estamos com os ingredientes vamos separar um recepiciente e adicionar-los:\n");
+   printf ("Agora que estamos com os ingredientes vamos separar a quantidade que iremos usar:\n");
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("add 2 xicaras (cha) de acucar\n ");
+   printf ("Separar 2 xicaras (cha) de acucar\n ");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("add 3 xicaras (cha) de farinha de trigo\n");
+   printf ("Separar 3 xicaras (cha) de farinha de trigo\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("add 4 colheres (sopa) de margarina\n");
+   printf ("Separar 4 colheres (sopa) de margarina\n");
    
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("add 3 ovos\n");
+   printf ("Separar 3 ovos\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("add 1 e 1/2 xicara(cha) de leite\n");
+   printf ("Separar 1 e 1/2 xicara(cha) de leite\n");
    
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("add 1 colher de (sopa) bem cheia de fermento\n\n");
+   printf ("Separar 1 colher de (sopa) bem cheia de fermento\n\n");
    
+   printf ("Agora que temos tudo separado iremos para o PREPARO: ^^");
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("Separe a clara da gema do ovo\n");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("Bata as claras em neve e reserve\n");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("");
+   
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("");
    return 0;
 }
