@@ -38,7 +38,7 @@ int main()
    printf ("Bata as claras em neve e reserve\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
-   printf ("");
+   printf ("Misture as gemas, a margarina e o acucar ate ter uma massa\n");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
    printf ("");
