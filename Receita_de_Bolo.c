@@ -44,6 +44,21 @@ int main()
    printf ("Acrescente o leite e a farinha de trigo aos poucos, sem parar de bater\n");
    
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("Por ultimo, add as clara e neve e o fermento\n");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
+   printf ("");
+
+   printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
    printf ("");
 
    printf ("\n- Passo %d da receita\n", numero_de_passos=numero_de_passos+1);
