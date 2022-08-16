@@ -1,0 +1,17 @@
+definir N como o máximo permitido (valor entre 0 e 500.000)
+solicitar ao usuario o valor inteiro de P (0 a 1000)
+armazenar na variavel P
+solicitar ao usuario qual a operação desejada (* ou +)
+armazenar na variavel C
+solicitar o segundo numero ao usuario como valor inteiro de Q (0 a 1000)
+armazenar na variavel Q
+
+se C for igual a '+'
+   resultado = P+Q
+senão, se C for igual a '*'
+   resultado = P*Q
+
+se o resultado for maior que o N  
+   mostra na tela "OVERFLOW"
+senão, se o resultado for menor que o N  
+   mostra na tela "OK"   
