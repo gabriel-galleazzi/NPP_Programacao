@@ -13,52 +13,27 @@ void main (void)
    
   printf ("Digite o valor de overflow desejado entre (1 a 500.000):\n"); 
     scanf("%d", &overflow);
-    if (overflow>500000)
+    if ((overflow<1)||(overflow>500000))
       return 0;
-    else
-    {
-      if (overflow<1)
-      {
-        return 0;
-      }
-    }
     
 
   printf ("Digite o valor de P (0 a 1000):\n");
     scanf ("%d", &p);
-    if (p>1000)
+    if ((p<0)||(p>1000))
       return 0;
-    else
-    {
-      if (p<0)
-      {
-        return 0;
-      }
-    }
   
 
   printf ("Digite + ou *:\n");
     scanf ("%s", &c);
-    if (c=='+')
-      ; 
+    if ((c=='+')||(c=='*'));
     else 
-      if (c=='*')
-      ;
-      else
       return 0;
       
     
   printf ("Digite o valor de Q (0 a 1000):\n");
     scanf ("%d", &q);
-    if (q>1000)
+    if ((q<0)||(q>1000))
      return 0;
-    else
-    {
-      if (q<0)
-      {
-        return 0;
-      }
-    }
     
 
   //logica para soma ou multiplicação
