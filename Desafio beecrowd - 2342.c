@@ -23,6 +23,7 @@ void main (void)
       }
     }
     
+
   printf ("Digite o valor de P (0 a 1000):\n");
     scanf ("%d", &p);
     if (p>1000)
@@ -36,12 +37,10 @@ void main (void)
     }
   
 
-  // REVER ESSA PARTE DO PROGRAMA!!!!!!!
-
   printf ("Digite + ou *:\n");
-    scanf ("%s", &c);// c = getche();
+    scanf ("%s", &c);
     if (c=='+')
-      ;
+      ; 
     else 
       if (c=='*')
       ;
@@ -62,6 +61,7 @@ void main (void)
     }
     
 
+  //logica para soma ou multiplicação
   if (c=='+')
     r = p+q;
   else 
@@ -77,38 +77,3 @@ void main (void)
   else
     printf ("\nSeus valores estao OK\n\n");
 }
-
-/*
-#include<stdio.h>
-
-void main (void)
-{
-    int overflow, p, q, r;
-   
-    char c; // + ou *
-   
-   //entrada overflow
-    scanf("%d", &overflow);
-    
-    //entrada de P e Q e C
-    scanf ("%d %d %c", &p, &q, &c);
-    
-    //logica para a escolha de + ou *
-    if (c=='+')
-       r = p+q;
-    else 
-      if (c=='*')
-      {
-        r = p*q;
-      }
-      else
-       printf ("ERROR"); 
-
-    //if para saida final
-    if (overflow<r) 
-    printf ("OVERFLOW\n"); 
-    else
-    printf ("OK\n");
-    return 0;
-}
-*/
