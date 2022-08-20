@@ -2,41 +2,80 @@
 
 void main (void)
 {
-    int overflow, p, q, r;
-    //overflow = numero que não pode ser ultrapassado
+  int overflow, p, q, r;
+  char c; 
+    // c == + ou *
+    // overflow = numero que não pode ser ultrapassado
     // p = inteiro_1
     // q = inteiro_2
     // r = resultado
-    char c; // + ou *
+  
    
-    printf ("Digite o valor de overflow desejado entre (1 a 500.00):\n"); 
+  printf ("Digite o valor de overflow desejado entre (1 a 500.000):\n"); 
     scanf("%d", &overflow);
+    if (overflow>500000)
+      return 0;
+    else
+    {
+      if (overflow<1)
+      {
+        return 0;
+      }
+    }
     
-    //entrada de P e Q e C
-    printf ("Digite o valor de P (0 a 1000):\n");
+  printf ("Digite o valor de P (0 a 1000):\n");
     scanf ("%d", &p);
-    
-    printf ("Digite o valor de Q (0 a 1000):\n");
-    scanf ("%d", &q);
+    if (p>1000)
+      return 0;
+    else
+    {
+      if (p<0)
+      {
+        return 0;
+      }
+    }
+  
 
-    printf ("Digite + ou *:\n");
-    c = getche();
-    //printf ("%c\n", c);
+  // REVER ESSA PARTE DO PROGRAMA!!!!!!!
 
+  printf ("Digite + ou *:\n");
+    scanf ("%s", &c);// c = getche();
     if (c=='+')
-       r = p+q;
+      ;
     else 
       if (c=='*')
-      {
-        r = p*q;
-      }
+      ;
       else
-       printf ("ERROR"); 
-
-    if (overflow<r) 
-    printf ("\nVoce teve um OVERFLOW\n"); 
+      return 0;
+      
+    
+  printf ("Digite o valor de Q (0 a 1000):\n");
+    scanf ("%d", &q);
+    if (q>1000)
+     return 0;
     else
-    printf ("\nSeus valores estao OK\n");
+    {
+      if (q<0)
+      {
+        return 0;
+      }
+    }
+    
+
+  if (c=='+')
+    r = p+q;
+  else 
+    if (c=='*')
+    {
+      r = p*q;
+    }
+  else
+    return 0; 
+
+  if (overflow<r) 
+    printf ("\nVoce teve um OVERFLOW\n\n"); 
+  else
+    printf ("\nSeus valores estao OK\n\n");
 }
 
 /*
