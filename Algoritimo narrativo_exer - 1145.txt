@@ -1,0 +1,8 @@
+entrar com dois valores inteiros
+guardar o valor de x
+guardar o valor de y
+
+criar um laço que conte de 
+x para y 
+sendo x maior que 1 e menor que 20
+sendo y maior que x e menor que 100000
